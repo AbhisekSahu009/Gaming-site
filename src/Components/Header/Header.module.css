@@ -1,0 +1,156 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 8%;
+}
+
+
+.hero_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero_title{
+    font-size: 9rem;
+    font-family: var(--Anton-font);
+    font-weight: 500;
+    line-height: 11rem;
+}
+
+.hero_title span{
+    color: var(--primary-color);
+    font-family: var(--kaushan-font);
+}
+
+.hero_boxes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero_boxes p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--light-text);
+}
+
+.hero_social{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.hero_social i{
+    font-size:  1.5rem;
+    color: var(--light-text);
+    transition: var(--transition);
+}
+
+
+.hero_social i:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+
+.hero_bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero_bottom_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.hero_bottom_content h2{
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: var(--Anton-font);
+    font-weight: 500;
+}
+
+
+.hero_bottom_content p{
+    font-size: 1.2rem;
+    width: 90%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--light-text);
+}
+
+.hero_img{
+    width: 50%;
+    animation: Anim_top_bottom 5s infinite linear;
+}
+
+.hero_img img{
+    width: 80%;
+    object-fit: contain;
+}
+
+
+.shape{
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-50% , -50%);
+    width: 300px;
+    height: 300px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(200px);
+}
+
+.shape2{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-50% , -50%);
+    width: 300px;
+    height: 300px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(250px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes Anim_top_bottom{
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
+
