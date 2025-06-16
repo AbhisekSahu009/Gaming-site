@@ -154,3 +154,89 @@ header{
     }
 }
 
+
+
+
+
+
+@media (max-width: 1400px) {
+    .hero_title{
+        font-size: 6rem;
+    }
+    /*body{*/
+    /*    overflow: hidden;*/
+    /*}*/
+    .hero_bottom_content{
+        font-size: 1rem;
+    }
+    .hero_img img{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .hero_title{
+        font-size: 4rem;
+    }
+    .hero_bottom_content h2{
+        font-size: 1.5rem ;
+        line-height: 2rem;
+    }
+    .hero_bottom_content p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+}
+
+@media (max-width: 900px){
+    .hero_title{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .hero_bottom_content,
+    .hero_img{
+        width: 100%;
+    }
+    .hero_bottom{
+        flex-direction: column;
+    }
+    .shape{
+        top: 130%;
+        left: 50%;
+    }
+}
+
+
+@media (max-width: 500px){
+    .hero_title{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .hero_bottom_content h2{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .hero_bottom_content p{
+        font-size: 0.8rem;
+        width: 100%;
+        line-height: 1rem;
+    }
+    .hero_img img{
+        width: 100%;
+    }
+    .hero_boxes{
+        margin-top: 10px;
+    }
+    .hero_boxes p{
+        font-size: 0.8rem;
+    }
+    .shape{
+        top: 90%;
+        left: 50%;
+        height: 200px;
+        width: 200px;
+    }
+
+}

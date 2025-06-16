@@ -110,7 +110,8 @@ button span:nth-of-type(2){
 
 button span:nth-of-type(4){
     position: absolute;
-    top: 2%;
+    bottom: 0;
+
     right: -1.5%;
     width: 2px;
     height: 80%;
@@ -118,4 +119,23 @@ button span:nth-of-type(4){
     background-color: var(--primary-color);
     border-radius: 5px;
 
+}
+
+
+button:hover{
+    background-color: var(--white-color);
+    box-shadow: 0px 30px 60px  rgba(69,248,130, 0.3) ;
+    cursor: pointer;
+}
+
+button:hover span:nth-of-type(1),
+button:hover span:nth-of-type(2){
+    width: 100%;
+    background-color: var(--white-color);
+}
+
+button:hover span:nth-of-type(3),
+button:hover span:nth-of-type(4){
+    height: 100%;
+    background-color: var(--white-color);
 }
