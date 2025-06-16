@@ -3,6 +3,7 @@ import './App.css'
 import Nav from './Components/Nav/Nav'
 import Header from "./Components/Header/Header.jsx";
 import Service from "./Components/Services/Service.jsx";
+import Marquee from "./Components/Marquee/Marquee.jsx";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
      <Nav/>
         <Header/>
         <Service/>
+        <Marquee/>
     </>
   )
 }
