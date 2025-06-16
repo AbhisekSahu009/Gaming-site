@@ -5,6 +5,7 @@ import Header from "./Components/Header/Header.jsx";
 import Service from "./Components/Services/Service.jsx";
 import Marquee from "./Components/Marquee/Marquee.jsx";
 import GameCards from "./Components/GameCards/GameCards.jsx";
+import VideoBg from "./Components/VideoBg/VideoBg.jsx";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Service/>
         <Marquee/>
         <GameCards/>
+        <VideoBg/>
     </>
   )
 }
