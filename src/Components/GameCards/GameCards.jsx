@@ -15,9 +15,9 @@ function GameCards() {
         loop={true}
         breakpoints={{
             1400:{slidesPerView: 4},
-            1300:{slidesPerView: 4},
-            1200:{slidesPerView: 2},
-            1000:{slidesPerView: 1}
+            1200:{slidesPerView: 4},
+            900:{slidesPerView: 2},
+            500:{slidesPerView: 1}
         }}>
 
             <SwiperSlide>
