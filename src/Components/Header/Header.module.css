@@ -106,7 +106,7 @@ header{
 
 
 .shape{
-    position: absolute;
+    position: fixed;
     top: 80%;
     left: 70%;
     transform: translate(-50% , -50%);
@@ -115,11 +115,11 @@ header{
     background-color: var(--primary-color);
     border-radius: 50%;
     z-index: -1;
-    filter: blur(200px);
+    filter: blur(230px);
 }
 
 .shape2{
-    position: absolute;
+    position: fixed;
     top: 30%;
     left: 10%;
     transform: translate(-50% , -50%);
