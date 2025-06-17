@@ -1,0 +1,108 @@
+.testimonial {
+    flex-direction: column;
+    gap: 50px;
+}
+
+.tetsSlider{
+    width: 100%;
+}
+.test_card{
+    width: 100%;
+    background: #141a21;
+    mask-image: url("./../../assets/game-card4.jpg");
+    mask-size: 100% 100%;
+    padding: 50px;
+    z-index: -1;
+}
+
+.test_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.test_info h2{
+    font-size: 2rem;
+    font-weight: 700;
+    /*color: var(--extra-light-text);*/
+    font-family: var(--Anton-font);
+    transition: var(--transition);
+}
+
+.test_info h2:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.test_info h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.test_card p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    color: var(--light-text);
+}
+
+.test_box{
+    position: relative;
+    background-color: var(--black-color);
+    border-radius: 20px;
+}
+
+.client_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    z-index: 5;
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1400px){
+    .client_img{
+        top: 11px;
+        right: 1px;
+    }
+
+}
+
+@media(max-width: 1200px){
+    .client_img{
+        right: 10px;
+        top: 0px;
+    }
+}
+
+
+@media(max-width: 900px){
+    .client_img{
+        right: 5px;
+        top: 10px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+
+@media(max-width: 900px){
+    .client_img{
+        right: 5px;
+        top: 5px;
+        width: 70px;
+        height: 70px;
+    }
+}
