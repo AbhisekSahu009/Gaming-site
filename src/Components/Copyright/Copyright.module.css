@@ -1,0 +1,29 @@
+.copyright {
+    padding: 1% 8%;
+    background-color: var(--bg-color);
+}
+
+.copyright p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--extra-light-text);
+}
+
+.copyright p a{
+    color: red;
+}
+
+.copyright p a:hover{
+    transform: scale(1.9);
+    color: var(--primary-color);
+    transition: var(--transition);
+    transition-delay: 0.2s;
+}
+
+
+
+@media (max-width:500px) {
+    .copyright p{
+        text-align: center;
+    }
+}

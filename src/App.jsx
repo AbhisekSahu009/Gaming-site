@@ -13,6 +13,7 @@ import Testimonial from "./Components/Testimonial/Testimonial.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
 import Insta from "./Components/Insta/Insta.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
+import Copyright from "./Components/Copyright/Copyright.jsx";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <Contact/>
         <Insta/>
         <Footer/>
+       <Copyright/>
     </>
   )
 }
