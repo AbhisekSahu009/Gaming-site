@@ -9,6 +9,7 @@ import VideoBg from "./Components/VideoBg/VideoBg.jsx";
 import Mission from "./Components/Mission/Mission.jsx";
 import Team from "./Components/Team/Team.jsx";
 import Works from "./Components/Works/Works.jsx";
+import Testimonial from "./Components/Testimonial/Testimonial.jsx";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Mission/>
         <Team/>
         <Works/>
+        <Testimonial/>
     </>
   )
 }
