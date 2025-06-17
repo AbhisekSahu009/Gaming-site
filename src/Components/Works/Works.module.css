@@ -1,0 +1,235 @@
+.our_work{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color:var(--black-color);
+    padding-top: 0;
+    padding: 5% 1%;
+}
+.work_head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work_head h1{
+    font-size: 15rem;
+    line-height: 15rem;
+    font-weight: 500;
+    color: transparent;
+    -webkit-text-stroke-color:transparent ;
+    -webkit-text-stroke-width: 1.8px;
+    -webkit-text-fill-color: var(--black-color);
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to top, transparent 14%, #fff);
+    /*margin-top: -10px;*/
+}
+
+
+
+.work_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.work_card{
+    width: 100%;
+    position: relative;
+}
+
+.work_box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-top: 1px solid var(--border-light);
+    border-bottom: 1px solid var(--border-light);
+    padding: 50px 20%;
+
+    z-index: 5;
+}
+/*.work_box:hover:after,*/
+/*.work_box:hover .work_box_bg{*/
+/*    opacity: 1;*/
+/*}*/
+
+/*.work_box:hover .work_text h1{*/
+/*    color: var(--black-color);*/
+/*}*/
+/*.work_box:after{*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-color: #007c29d4;*/
+/*    opacity: 0;*/
+/*    transition: var(--transition2);*/
+/*    z-index: -1;*/
+/*}*/
+/*.work_box_bg{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    opacity: 0;*/
+/*    transition: var(--transition2);*/
+/*    z-index: -1;*/
+/*}*/
+
+.work_text{
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.work_text h1{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: var(--Anton-font);
+}
+
+.work_box h2{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: var(--Anton-font);
+    color: var(--primary-color);
+}
+
+
+.marquee_text {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.work_card marquee{
+    width: 100%;
+    position:absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    opacity: 0;
+    background-image: url("./../../assets/game-card2.webp");
+    padding: 53px 0;
+    background-size: cover;
+    transition: var(--transition);
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+.work_card marquee:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 223, 62, 0.47);
+    z-index: -1;
+    transition: var(--transition);
+}
+
+.work_card:hover marquee{
+    opacity: 1;
+
+}
+
+.work_card .marquee_text h1{
+    font-family: var(--Anton-font);
+    font-size: 4rem;
+    color: var(--black-color);
+    line-height: 4rem;
+    font-weight: 500;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--black-color);
+    transition: var(--transition);
+}
+
+.work_card .marquee_text h1:hover{
+    color: var(--black-color);
+    cursor: pointer;
+}
+.work_card .marquee_text span{
+    color: var(--black-color);
+    font-weight: 500;
+    font-family: var(--Anton-font);
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1400px){
+    .work_text h1{
+        font-size: 2rem;
+    }
+    .work_box h2{
+        font-size: 1.5rem;
+    }
+    .work_card marquee{
+        padding: 30px 0;
+    }
+}
+
+
+@media(max-width: 1200px){
+}
+
+@media(max-width: 900px){
+    .work_box{
+        padding: 50px 10%;
+    }
+    .work_head h1{
+        font-size: 11.5rem;
+    }
+
+}
+
+
+
+@media(max-width: 500px) {
+    .work_text{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .work_text h1{
+        font-size: 1.5rem;
+    }
+    .work_head h1{
+        font-size: 7rem;
+    }
+
+    .our_work{
+        gap: 0;
+    }
+    .work_container{
+        margin: 0;
+    }
+
+}

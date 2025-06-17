@@ -8,6 +8,7 @@ import GameCards from "./Components/GameCards/GameCards.jsx";
 import VideoBg from "./Components/VideoBg/VideoBg.jsx";
 import Mission from "./Components/Mission/Mission.jsx";
 import Team from "./Components/Team/Team.jsx";
+import Works from "./Components/Works/Works.jsx";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <VideoBg/>
         <Mission/>
         <Team/>
+        <Works/>
     </>
   )
 }
