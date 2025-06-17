@@ -10,6 +10,7 @@ import Mission from "./Components/Mission/Mission.jsx";
 import Team from "./Components/Team/Team.jsx";
 import Works from "./Components/Works/Works.jsx";
 import Testimonial from "./Components/Testimonial/Testimonial.jsx";
+import Contact from "./Components/Contact/Contact.jsx";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Team/>
         <Works/>
         <Testimonial/>
+        <Contact/>
     </>
   )
 }
