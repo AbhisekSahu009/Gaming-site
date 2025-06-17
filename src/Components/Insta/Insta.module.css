@@ -1,5 +1,6 @@
 .InstaSlider{
     width: 100%;
+    background-color: var(--black-color);
 }
 
 .insta_img{
