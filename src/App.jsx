@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-     <Nav/>
+        <Nav/>
         <Header/>
         <Service/>
         <Marquee/>

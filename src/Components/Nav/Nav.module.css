@@ -34,6 +34,7 @@
 .menu li:first-child a{
     color: var(--black-color);
 }
+
 .menu li a:after{
     content: '';
     position: absolute;
@@ -83,7 +84,7 @@
     gap: 20px;
     color: var(--white-color);
 
-
+}
 
 .right_menu h2{
     font-size: 1rem;
@@ -108,9 +109,28 @@
      color: var(--primary-color);
      cursor: pointer;
  }
-.bars{
-    display: none;
-}
+
+    .bars{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .bars i{
+        font-size: 1.3rem;
+        transition: var(--transition);
+    }
+
+    .bars i:hover{
+        color: var(--primary-color);
+        cursor: pointer;
+    }
+
+
+    .bars i {
+        display: none;
+    }
 
 
 
@@ -123,6 +143,10 @@
 }
 
 @media (max-width: 1200px){
+
+    .bars i {
+        display: block;
+    }
     .bars{
         display: flex;
         justify-content: center;
@@ -161,16 +185,15 @@
         padding: 0px 20px;
         font-weight: 600;
     }
-    .openMenu{
+    .openMenu {
         left: 5%;
         opacity: 1;
     }
-}}
+}
 
 
-@media (max-width: 500px){
-    .right_menu h2{
+@media (max-width: 500px) {
+    .right_menu h2 {
         display: none;
     }
 }
-

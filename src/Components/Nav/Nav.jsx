@@ -5,9 +5,14 @@ function Nav() {
 
     const menubar = useRef();
 
+    // const openMenu = () => {
+    //     menubar.current.classList.toggle(NavCss.openMenu);
+    // }
+
     const openMenu = () => {
         menubar.current.classList.toggle(NavCss.openMenu);
-    }
+    };
+
     return (
         <div className={NavCss.nav}>
             <div className={NavCss.menu} ref={menubar}>
@@ -20,11 +25,11 @@ function Nav() {
 
 
             <div className={NavCss.bars}>
-                <i className={`${NavCss.nav_icon}ri-menu-2-fill`} onClick={openMenu}></i>
+                <i className={`${NavCss.nav_icon} ri-menu-2-fill`} onClick={openMenu}></i>
             </div>
 
             <div className={NavCss.logo}>
-                <a href="#">Zex<span>Ora</span></a>
+                <a href="#">C<span>X</span>N</a>
             </div>
 
             <div className={NavCss.right_menu}>
