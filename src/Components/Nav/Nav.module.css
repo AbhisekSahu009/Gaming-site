@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 8%;
+    padding: 0 5%;
 }
 
 
@@ -64,6 +64,7 @@
     padding: 30px 60px 30px;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
     background-color: var(--border-color);
+
 }
 
 .logo a{
@@ -86,12 +87,17 @@
 
 }
 
-.right_menu h2{
+.right_menu h2 a{
     font-size: 1rem;
     font-family: var(--Anton-font);
     font-weight: 5000;
-    color: var(--primary-color);
+    color: var(--white-color);
  }
+
+.right_menu h2 a:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
 
  .nav_icon{
      display: flex;

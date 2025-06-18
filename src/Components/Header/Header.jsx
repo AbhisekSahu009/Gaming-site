@@ -9,7 +9,14 @@ function Header() {
 
         <header>
             <div className={HeaderCss.hero_content}>
-                <h1 className={HeaderCss.hero_title}>NEXORA<span> GAMING</span></h1>
+                <h1 className={HeaderCss.hero_title}>
+                    <div>
+                        Code-<span>x</span>-Novas
+                    </div>
+                    <div>
+                    <span> GAMING</span>
+                    </div>
+                </h1>
                 <div className={HeaderCss.hero_boxes}>
                     <p> sjfhsvjkjvhiehvkssjfsjcsjkcjscbs </p>
                     <div className={HeaderCss.hero_social}>

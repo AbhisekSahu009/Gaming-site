@@ -33,7 +33,7 @@ function Nav() {
             </div>
 
             <div className={NavCss.right_menu}>
-                <h2>INFO@EXAMPLE.COM</h2>
+                <h2><a href="#">codexnovas.tech</a></h2>
                 <div className={NavCss.nav_icon}>
                     <i className={`${NavCss.nav_icon} ri-search-2-line`}></i>
                 </div>

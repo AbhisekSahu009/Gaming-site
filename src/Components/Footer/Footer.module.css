@@ -53,13 +53,15 @@
 .footer_inputs input{
     width: 90%;
     height: 100%;
-    background-color: transparent;
+    background-color: #151515;
     border: none;
     outline: none;
     font-size: 1.1rem;
     color: var(--white-color);
     &::placeholder{
         color: var(--light-text);
+        padding-left: 2%;
+        font-family: var(--Anton-font);
     }
 }
 

@@ -15,7 +15,12 @@ header{
 }
 
 .hero_title{
-    font-size: 9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    font-size: 7rem;
     font-family: var(--Anton-font);
     font-weight: 500;
     line-height: 11rem;
@@ -23,7 +28,7 @@ header{
 
 .hero_title span{
     color: var(--primary-color);
-    font-family: var(--kaushan-font);
+    font-family: var(--Anton-font);
 }
 
 .hero_boxes{

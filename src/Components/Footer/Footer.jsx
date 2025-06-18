@@ -6,7 +6,7 @@ function Footer() {
     return (
         <section className={FooterCss.footer}>
             <div className={FooterCss.footer_logo}>
-                <a href="#">Zex<span>Ora</span></a>
+                <a href="#">C<span>X</span>N</a>
             </div>
 
             <div className={FooterCss.footer_menu}>
