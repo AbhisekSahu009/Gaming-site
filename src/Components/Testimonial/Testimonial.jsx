@@ -43,7 +43,7 @@ function Testimonial() {
 
                         </div>
                         <div className={TestimonialCss.client_img}>
-                            <img src={clientImg1} alt=""/>
+                            {/*<img src={clientImg1} alt=""/>*/}
                         </div>
                     </div>
                 </SwiperSlide>
