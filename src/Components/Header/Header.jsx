@@ -18,7 +18,7 @@ function Header() {
                     </div>
                 </h1>
                 <div className={HeaderCss.hero_boxes}>
-                    <p> sjfhsvjkjvhiehvkssjfsjcsjkcjscbs </p>
+                    <p> Welcome to the electrifying realm of Code X Novas Gaming! </p>
                     <div className={HeaderCss.hero_social}>
                         <i className={`${HeaderCss.hero_icon} ri-facebook-fill`}></i>
                         <i className={`${HeaderCss.hero_icon} ri-twitter-fill`}></i>
