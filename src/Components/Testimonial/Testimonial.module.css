@@ -75,7 +75,7 @@
 @media(max-width: 1400px){
     .client_img{
         top: 11px;
-        right: 1px;
+        right: 11px;
     }
 
 }
@@ -83,19 +83,11 @@
 @media(max-width: 1200px){
     .client_img{
         right: 10px;
-        top: 0px;
-    }
-}
-
-
-@media(max-width: 900px){
-    .client_img{
-        right: 5px;
         top: 10px;
-        width: 60px;
-        height: 60px;
     }
 }
+
+
 
 
 @media(max-width: 900px){
