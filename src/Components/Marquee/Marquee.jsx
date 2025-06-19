@@ -1,6 +1,6 @@
 import React from 'react';
 import MarqueeCss from './../Marquee/Marquee.module.css'
-import skullImg from './../../assets/skullImg.webp'
+import skullImg from './../../assets/SkullImg.webp'
 
 function Marquee() {
     return (
