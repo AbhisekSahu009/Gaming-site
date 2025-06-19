@@ -198,6 +198,10 @@
 
 
 @media(max-width: 1200px){
+    .work_head h1{
+        font-size: 13rem;
+    }
+
 }
 
 @media(max-width: 900px){
@@ -210,9 +214,24 @@
 
 }
 
+@media(max-width: 800px){
+    .work_box{
+        padding: 50px 5%;
+    }
+    .work_head h1{
+        font-size: 10rem;
+    }
+}
 
 
-@media(max-width: 500px) {
+@media(max-width: 650px){
+    .work_head h1{
+        font-size: 8rem;
+    }
+}
+
+
+@media(max-width: 520px) {
     .work_text{
         flex-direction: column;
         align-items: flex-start;
@@ -222,7 +241,7 @@
         font-size: 1.5rem;
     }
     .work_head h1{
-        font-size: 7rem;
+        font-size: 5rem;
     }
 
     .our_work{
