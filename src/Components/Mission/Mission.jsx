@@ -1,6 +1,6 @@
 import React from 'react';
 import MissionCss from './../Mission/Mission.module.css'
-import skullImg from './../../assets/skullImg.webp'
+import skullImg from '../../assets/skullImg.webp'
 
 function Mission() {
     return (
