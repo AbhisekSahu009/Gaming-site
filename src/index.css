@@ -67,6 +67,7 @@ button{
     position: relative;
     transition: var(--transition);
     margin-top: 10px;
+    color: var(--black-color);
 }
 
 button i{
