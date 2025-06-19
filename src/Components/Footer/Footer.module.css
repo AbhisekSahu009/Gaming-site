@@ -91,3 +91,66 @@
     color: var(--primary-color);
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1150px) {
+    .footer_inputs i{
+        padding-right: 2%;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .footer_inputs input{
+        width: 90%;
+        height: 100%;
+        background-color: #151515;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        color: var(--white-color);
+        &::placeholder{
+            color: var(--light-text);
+            padding-left: 2%;
+            font-family: var(--Anton-font);
+            font-size: 0.8rem;
+        }
+    }
+
+}
+
+
+@media (max-width: 500px) {
+    .footer_menu li a{
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+    .footer_menu li a{
+        font-size: 0.8rem;
+    }
+    .footer_inputs input{
+        padding-left: 2%;
+        font-size: 0.8rem;
+        color: var(--white-color);
+        &::placeholder{
+            font-size: 0.7rem;
+        }
+    }
+
+
+}
