@@ -3,7 +3,7 @@ import GameCardsCss from './../GameCards/GameCards.module.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
 import GameCardImg1 from './../../assets/game-card1.webp'
-import GameCardImg2 from './../../assets/game-card2.webp'
+import GameCardImg2 from './../../assets/game-card7.webp'
 import GameCardImg3 from './../../assets/game-card3.jpg'
 import GameCardImg4 from './../../assets/game-card4.jpg'
 

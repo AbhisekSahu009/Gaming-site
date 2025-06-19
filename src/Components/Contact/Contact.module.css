@@ -106,7 +106,7 @@
 
 .contact_btn:active,
 .contact_btn:focus:after{
-    transform: translate(-50% , -50%) scale(1);
+    transform: translate(-50% , -50%) scale(1.25);
     opacity: 1;
 }
 
