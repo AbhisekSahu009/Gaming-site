@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactCss from './../Contact/Contact.module.css'
+import {Typewriter} from "react-simple-typewriter";
 
 
 function Contact() {
@@ -9,7 +10,18 @@ function Contact() {
                 <h1>CONTACT US</h1>
                 <div className={ContactCss.contact_head_text}>
                     <div className={ContactCss.line}></div>
-                    <h1>HAVE A PROJECT?</h1>
+                    {/*<h1>HAVE A PROJECT?</h1>*/}
+                    <span>
+                    <Typewriter
+                        words={['HAVE A PROJECT?']}
+                        loop={0}
+                        cursor
+                        cursorStyle='❚'
+                        typeSpeed={90}
+                        deleteSpeed={40}
+                        delaySpeed={1000}
+                    />
+                    </span>
                 </div>
             </div>
 

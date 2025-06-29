@@ -28,7 +28,11 @@
     height: 2px;
     background-color: var(--primary-color);
 }
-.contact_head_text h1{
+.contact_head_text span{
+
+    font-size: 5rem;
+    font-family: var(--Anton-font);
+    font-weight: 600;
     color:transparent;
     -webkit-text-stroke: 1px var(--primary-color);
 }
