@@ -15,12 +15,14 @@ header{
 }
 .typingText {
     color: #fff;
+    text-align: center;
+    justify-content: center;
     text-shadow: 50px 0 100px var(--primary-color);
 }
 
 .hero_title{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     gap: 5rem;
     align-items: center;
@@ -168,7 +170,7 @@ header{
 
 
 
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
     .hero_title{
         font-size: 6rem;
     }

@@ -17,7 +17,10 @@ function GameCards() {
             1400:{slidesPerView: 4},
             1200:{slidesPerView: 4},
             900:{slidesPerView: 2},
-            500:{slidesPerView: 1}
+            500:{slidesPerView: 1},
+            400:{slidesPerView: 1},
+            300:{slidesPerView: 1},
+            200:{slidesPerView: 1}
         }}>
 
             <SwiperSlide>
