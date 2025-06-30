@@ -119,7 +119,7 @@
     left: 0;
     transform: translateY(-50%);
     opacity: 0;
-    background-image: url("./../../assets/game-card2.webp");
+    background-image: url("./../../assets/work.webp");
     padding: 53px 0;
     background-size: cover;
     transition: var(--transition);
