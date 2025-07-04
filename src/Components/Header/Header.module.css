@@ -105,6 +105,12 @@ header{
     color: var(--light-text);
 }
 
+
+
+.hero_content button a{
+    color: var(--black-color);
+}
+
 .hero_img{
     width: 50%;
     animation: Anim_top_bottom 5s infinite linear;

@@ -67,8 +67,8 @@ function Header() {
                     <div className={HeaderCss.hero_content}>
                         <h2>SOME COOL & DROP CHARACTERS</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
-                        <button>NEXT CAN BE YOU
-                        <i className={'ri-arrow-right-s-line'}></i>
+                        <button><a href="#marquee">NEXT CAN BE YOU
+                        <i className={'ri-arrow-right-s-line'}></i></a>
                             <span></span>
                             <span></span>
                             <span></span>
