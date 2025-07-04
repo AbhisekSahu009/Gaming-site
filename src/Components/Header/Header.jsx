@@ -9,6 +9,7 @@ import Spline from "@splinetool/react-spline";
 function Header() {
     return (
 
+
         <header>
             <div className={HeaderCss.hero_content}>
                 <h1 className={HeaderCss.hero_title}>

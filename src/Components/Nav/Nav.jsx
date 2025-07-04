@@ -17,10 +17,10 @@ function Nav() {
         <div className={NavCss.nav}>
             <div className={NavCss.menu} ref={menubar}>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Highlights</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#services">About</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#works">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </div>
 
 

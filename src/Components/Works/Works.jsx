@@ -4,7 +4,7 @@ import CardBgImg from './../../assets/game-card1.webp'
 
 function Works() {
     return (
-        <div className={WorksCss.our_work}>
+        <div className={WorksCss.our_work} id="works">
             <div className={WorksCss.work_head}>
                 <h1>WORKS</h1>
             </div>

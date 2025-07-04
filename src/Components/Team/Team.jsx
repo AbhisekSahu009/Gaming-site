@@ -14,7 +14,7 @@ import GameCardImg4 from "../../assets/game-card4.jpg";
 
 function Team() {
     return (
-        <section className={TeamCss.our_team}>
+        <section className={TeamCss.our_team} id="team">
             <div className="Headings">
                 <h2>Our Team</h2>
                 <h1>OUR AVENGERS</h1>

@@ -5,7 +5,7 @@ import {Typewriter} from "react-simple-typewriter";
 
 function Contact() {
     return (
-        <section className={ContactCss.contact}>
+        <section className={ContactCss.contact} id="contact">
             <div className={ContactCss.contact_head}>
                 <h1>CONTACT US</h1>
                 <div className={ContactCss.contact_head_text}>

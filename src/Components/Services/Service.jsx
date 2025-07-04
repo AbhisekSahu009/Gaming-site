@@ -6,7 +6,7 @@ import ServiceCss from './../Services/Service.module.css'
 
 function Service() {
     return (
-       <section className={ServiceCss.services}>
+       <section className={ServiceCss.services} id="services">
            <div className={ServiceCss.service_head}>
                <h2>What we do</h2>
            </div>
