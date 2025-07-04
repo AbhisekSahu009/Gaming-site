@@ -14,11 +14,14 @@ import Contact from "./Components/Contact/Contact.jsx";
 import Insta from "./Components/Insta/Insta.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import Copyright from "./Components/Copyright/Copyright.jsx";
+import Cursorglow from "./Components/Cursorglow/Cursorglow.jsx";
 
 function App() {
 
   return (
+
     <>
+        <Cursorglow/>
         <Nav/>
         <Header/>
         <Service/>

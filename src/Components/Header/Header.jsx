@@ -2,6 +2,7 @@ import React from 'react';
 import HeaderCss from './../Header/Header.module.css'
 import HeroImg from './../../assets/hero.jpg'
 import {Typewriter} from "react-simple-typewriter";
+import Spline from "@splinetool/react-spline";
 
 
 
@@ -75,7 +76,9 @@ function Header() {
                     </div>
                     <div className={HeaderCss.hero_img}>
                         <img src={HeroImg} alt=""/>
+
                     </div>
+
                     <div className={HeaderCss.shape}></div>
                     <div className={HeaderCss.shape2}></div>
                 </div>
