@@ -136,11 +136,11 @@ const GameCards = () => {
     };
 
     const slides = [
-        { img: GameCardImg1, filename: 'cod.webp' },
-        { img: GameCardImg2, filename: 'gta-card.webp' },
-        { img: GameCardImg3, filename: 'rdr-card.webp' },
-        { img: GameCardImg4, filename: 'game-card4.jpg' },
-        { img: GameCardImg2, filename: 'gta-card.webp' }, // duplicate for extra slide
+        { image: GameCardImg1, filename: 'cod.webp' },
+        { image: GameCardImg2, filename: 'gta-card.webp' },
+        { image: GameCardImg3, filename: 'rdr-card.webp' },
+        { image: GameCardImg4, filename: 'game-card4.jpg' },
+        { image: GameCardImg2, filename: 'gta-card.webp' }, // duplicate for extra slide
     ];
 
     return (
@@ -162,9 +162,9 @@ const GameCards = () => {
                 <SwiperSlide key={index}>
                     <div className={GameCardsCss.gameCard}>
                         <div className={GameCardsCss.game_img}>
-                            <img src={slide.img} alt={`Game ${index + 1}`} />
+                            <img src={slide.image} alt={`Game ${index + 1}`} />
                         </div>
-                        <button onClick={() => handleDownload(slide.img, slide.filename)}>
+                        <button onClick={() => handleDownload(slide.image, slide.filename)}>
                             DOWNLOAD
                             <i className={'ri-arrow-right-s-line'}></i>
                             <span></span>
